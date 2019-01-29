@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint-react"
+  ],
+  "rules": {
+    "prefer-object-spread": true, // 优先使用 spread 语法
+    "no-unused-expression": [ // 允许短路表达式
+      true,
+      "allow-fast-null-checks",
+      "allow-new",
+      "allow-tagged-template"
+    ]
+  }
+}
